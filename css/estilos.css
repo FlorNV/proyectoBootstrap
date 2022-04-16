@@ -1,14 +1,88 @@
-/* header {
-    height: 10vh;
-} */
+body {
+    padding-top: 5.5rem;
+    background: linear-gradient(to top, #10002b ,#3c096c, #7b2cbf);
 
-.caja {
-    height: 70vh;
-    font-size: 3em;
-    font-weight: bold;
 }
 
-footer {
-    font-size: 1.5em;
-    font-weight: bold;
+.encabezado {
+    background-color: rgba(0, 0, 0, .8);
 }
+
+.nav-item .nav-link {
+    color: #888 !important;
+    border-radius: .8rem;
+    display: block;
+    padding: 0.5rem 1rem !important;
+    margin-right: 0.5rem;
+    transition: color .3s ease-in-out,background-color .3s ease-in-out;
+}
+
+.nav-item .nav-link:hover {
+    color: #fff !important;
+    background-color: rgba(255, 255, 255, .05);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%28255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.card {
+    height: 100%;
+    cursor: pointer;
+    border: none;
+    transition: background-color .5s;
+}
+
+.card img {
+    height: 100%;
+    transition: filter .5s;
+}
+
+.imagen {
+    height: 100%;
+    position: relative;
+}
+
+.card-img-overlay {
+    top: auto;
+    opacity: 0;
+    transition: .5s;
+}
+
+.card-img-overlay {
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+.card-link {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.card:hover .card-img-overlay {
+    opacity: 1;
+}
+
+.card:hover img {
+    filter: brightness(0.3);
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+#peliculas {
+    padding: 0;
+}
+
+#publicidad {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+#publicidad img {
+    width: 100%;
+}
+
