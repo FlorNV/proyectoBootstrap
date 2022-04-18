@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/pagec.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="encabezado fixed-top p-3">
+        <!-- <div class="container"> -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="pagea.html">MI PAGINA</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="pagea.html">Portal de películas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pageb.html">Cotización de divisas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pagec.html">Traductor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="page1.html" target="_blank">Page 1</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-buscar" type="submit"><i class="bi bi-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        <!-- </div> -->
+    </header>
+
+
+    <main class="container contenedor-oscuro p-5">
+        <form class="px-5" id="traductor" action="">
+            <div class="row idioma-container gy-3">
+                <div class="col-6 col-md-3 text-center">
+                    <button class="btn btn-idioma shadow-none" type="button"><img src="img/italia.png" alt="">Italiano</button>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <button class="btn btn-idioma shadow-none" type="button"><img src="img/france.png" alt="">Frances</button>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <button class="btn btn-idioma shadow-none" type="button"><img src="img/united-kingdom.png" alt="">Ingles</button>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <button class="btn btn-idioma shadow-none" type="button"><img src="img/spain.png" alt="">Español</button>
+                </div>
+            </div>
+            <div class="input-container">
+                <textarea class="form-control shadow-none" rows="5">Estoy traduciendo este texto con esta maravillosa app!</textarea>
+                <button type="button" class="btn btn-botton shadow-none"><i class="bi bi-mic-fill"></i></button>
+            </div>
+            <div class="row idioma-container gy-3">
+                <div class="col-6 col-md-3 text-center">
+                    <button class="btn btn-idioma shadow-none" type="button"><img src="img/italia.png" alt="">Italiano</button>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <button class="btn btn-idioma shadow-none" type="button"><img src="img/france.png" alt="">Frances</button>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <button class="btn btn-idioma shadow-none" type="button"><img src="img/united-kingdom.png" alt="">Ingles</button>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <button class="btn btn-idioma" type="button"><img src="img/spain.png" alt="">Español</button>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-formulario shadow-none">TRADUCIR</button>
+        </form>
+        <div class="container">
+            <div class="row row-cols-1 resultado-container">
+                <div class="col resultado-container__texto">
+                    I am translating this text with this wonderful app!
+                    <button type="button" class="btn btn-botton shadow-none"><i class="bi bi-volume-up-fill"></i></button>
+                </div>
+                <div class="col">
+                    <div class="row botton-bar">
+                        <div class="col-4 text-center">
+                            <button type="button" class="btn btn-bar__item shadow-none" title="Copiar"><i class="bi bi-files"></i></button>
+                        </div>
+                        <div class="col-4 text-center">
+                            <button type="button" class="btn btn-bar__item shadow-none" title="Limpiar"><i class="bi bi-eraser"></i></button>
+                        </div>
+                        <div class="col-4 text-center">
+                            <button type="button" class="btn btn-bar__item shadow-none" title="Salir"><i class="bi bi-x-square"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+    <footer class="container-fluid bg-black">
+        <div class="row">
+            <div class="col-md-12 col-lg-4">
+                <div class="columna">
+                    <h4 id="nombre-pagina"><a href="pagea.html">MI PAGINA</a></h4>
+                    <ul class="list-inline red-social-group">
+                        <li class="list-inline-item red-social-item"><a href=""><i class="bi bi-facebook"></i></a></li>
+                        <li class="list-inline-item red-social-item"><a href=""><i class="bi bi-instagram"></i></a></li>
+                        <li class="list-inline-item red-social-item"><a href=""><i class="bi bi-twitter"></i></a></li>
+                        <li class="list-inline-item red-social-item"><a href=""><i class="bi bi-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <ul class="list-unstyled columna">
+                    <li class="list-item"><a href="">Privacidad</a></li>
+                    <li class="list-item"><a href="">Contactános</a></li>
+                    <li class="list-item"><a href="">Avisos legales</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <ul class="list-unstyled columna">
+                    <li class="list-item"><a href="">Centro de ayuda</a></li>
+                    <li class="list-item"><a href="">Términos de uso</a></li>
+                    <li class="list-item"><a href="">Información corporativa</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <p class="mt-5">&copy;2022 - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

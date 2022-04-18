@@ -50,13 +50,13 @@ tr > th > p {
     background-color: #ddd;
 }
 
-.conversor-container {
+.contenedor-oscuro {
     background-color: rgba(0, 0, 0, .4);
 }
 
 #conversor {
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 2rem 3rem;
 }
 
 #conversor h4 {
@@ -77,7 +77,7 @@ tr > th > p {
     color: #000;
 }
 
-.btn-convertir {
+/* .btn-convertir {
     background-color: rgba(255, 255, 255, .8);
     width: 100%;
     font-weight: 600;
@@ -86,7 +86,7 @@ tr > th > p {
     transition: color .3s ease-in-out,background-color .3s ease-in-out !important;
 }
 
-.btn-convertir:hover {
+.btn-fomulario:hover {
     color: #fff !important;
     background-color: rgba(0, 0, 0, .4);
-}
+} */
